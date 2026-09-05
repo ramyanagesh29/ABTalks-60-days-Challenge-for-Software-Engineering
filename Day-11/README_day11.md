@@ -1,4 +1,5 @@
-```Day 11 - Move Zeroes Using Two Pointers
+Day 11 - Move Zeroes Using Two Pointers
+
 Problem
 
 The goal is to move all zeroes to the end of the array while maintaining the original order of the non-zero elements.
@@ -52,4 +53,3 @@ git status
 git add .
 git commit -m "Day 11 Move Zeroes Using Two Pointers"
 git push origin main
-```
