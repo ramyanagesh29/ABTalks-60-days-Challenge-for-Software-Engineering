@@ -8,7 +8,3 @@ while(left<right):
   right=right-1
 print("Reverse String:","".join(character))
 
-
-//Output
-
-Reverse String: olleh
