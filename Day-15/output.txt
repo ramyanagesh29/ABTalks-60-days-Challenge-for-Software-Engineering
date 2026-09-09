@@ -1,0 +1,4 @@
+Duplicate found: 20
+Brute Force Execution Time: 2.9802322387695312e-05
+Duplicate found: 20
+Set Execution Time: 1.049041748046875e-05
