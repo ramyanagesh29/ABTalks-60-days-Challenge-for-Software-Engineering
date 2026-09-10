@@ -1,0 +1,11 @@
+----- Infinite Staircase Puzzle -----
+Number of steps: 10
+
+Recursive Solution:
+Number of ways: 89
+Execution time: 1.9311904907226562e-05
+
+Memoization Solution:
+Number of ways: 89
+Execution time: 6.4373016357421875e-06
+
