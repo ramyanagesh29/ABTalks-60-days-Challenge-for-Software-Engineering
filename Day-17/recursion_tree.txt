@@ -1,0 +1,9 @@
+                 []
+              /      \
+          Don't A     Take A
+            /           \
+           []            [A]
+         /   \          /   \
+    Don't B Take B  Don't B Take B
+       /       \       /       \
+      []       [B]    [A]      [A,B]
