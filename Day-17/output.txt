@@ -1,0 +1,14 @@
+----- Treasure Chest Combination Generator -----
+Gems: ['Ruby', 'Diamond', 'Emerald']
+
+All possible combinations:
+[]
+['Emerald']
+['Diamond']
+['Diamond', 'Emerald']
+['Ruby']
+['Ruby', 'Emerald']
+['Ruby', 'Diamond']
+['Ruby', 'Diamond', 'Emerald']
+
+Total combinations: 8
