@@ -1,0 +1,10 @@
+----- Ancient Bracket Decoder -----
+() -> Valid
+[] -> Valid
+{} -> Valid
+([{}]) -> Valid
+{[()]} -> Valid
+([)] -> Invalid
+{] -> Invalid
+((( -> Invalid
+] -> Invalid
