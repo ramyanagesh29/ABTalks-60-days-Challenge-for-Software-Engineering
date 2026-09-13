@@ -1,0 +1,12 @@
+----- Temperature Vault -----
+Pushed: 25 | Current Minimum: 25
+Pushed: 18 | Current Minimum: 18
+Pushed: 30 | Current Minimum: 18
+Pushed: 12 | Current Minimum: 12
+Pushed: 20 | Current Minimum: 12
+
+Minimum Temperature: 12
+Popped: 20
+Minimum Temperature after pop: 12
+Popped: 12
+Minimum Temperature after pop: 18
