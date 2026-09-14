@@ -1,0 +1,12 @@
+----- Robot Calculator Arena -----
+Expression: 2 3 +
+Result: 5
+
+Expression: 5 2 + 3 *
+Result: 21
+
+Expression: 4 13 5 / +
+Result: 6
+
+Expression: 10 6 - 2 *
+Result: 8
