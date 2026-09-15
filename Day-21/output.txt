@@ -1,3 +1,7 @@
 ----- Puzzle 1: Recursive Factorial -----
 Number: 5
 Factorial: 120
+
+----- Puzzle 2: Stack String Reversal -----
+Original: hello
+Reversed: olleh
