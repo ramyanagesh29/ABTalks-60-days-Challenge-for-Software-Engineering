@@ -1,6 +1,9 @@
-# Day 21 - Forbidden Functions Tournament
+# Day 21 - The Forbidden Functions Tournament
 
+
+# ==========================================
 # Puzzle 1 - Recursive Factorial
+# ==========================================
 
 def factorial(n):
 
@@ -19,7 +22,9 @@ print("Number:", number)
 print("Factorial:", factorial_result)
 
 
+# ==========================================
 # Puzzle 2 - Reverse String Using Stack
+# ==========================================
 
 def reverse_using_stack(text):
 
