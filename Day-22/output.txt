@@ -1,0 +1,22 @@
+===== Theme Park FastPass Simulator =====
+
+Ramya joined normal queue
+Rahul joined normal queue
+Anu joined VIP queue
+Kiran joined normal queue
+Priya joined VIP queue
+
+----- Current Queues -----
+VIP Queue: ['Anu', 'Priya']
+Normal Queue: ['Ramya', 'Rahul', 'Kiran']
+
+----- Processing Visitors -----
+Processing VIP visitor: Anu
+Processing VIP visitor: Priya
+Processing normal visitor: Ramya
+Processing normal visitor: Rahul
+Processing normal visitor: Kiran
+
+----- Current Queues -----
+VIP Queue: []
+Normal Queue: []
