@@ -1,0 +1,45 @@
+KINGDOM 1
+
+1 → 3 → 5 → 7 → None
+↑
+head1
+
+
+KINGDOM 2
+
+2 → 3 → 4 → 8 → None
+↑
+head2
+
+
+MERGING
+
+Compare 1 and 2
+Take 1
+
+1 →
+
+
+Compare 3 and 2
+Take 2
+
+1 → 2 →
+
+
+Compare 3 and 3
+Take first 3
+
+1 → 2 → 3 →
+
+
+Compare 5 and 3
+Take second 3
+
+1 → 2 → 3 → 3 →
+
+
+Continue comparing...
+
+FINAL MASTER LIST
+
+1 → 2 → 3 → 3 → 4 → 5 → 7 → 8 → None
