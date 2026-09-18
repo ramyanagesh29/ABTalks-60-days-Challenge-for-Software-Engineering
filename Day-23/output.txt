@@ -1,0 +1,7 @@
+----- Train Carriage Reversal -----
+
+Original train:
+Carriage 1 -> Carriage 2 -> Carriage 3 -> Carriage 4 -> None
+
+Reversed train:
+Carriage 4 -> Carriage 3 -> Carriage 2 -> Carriage 1 -> None
