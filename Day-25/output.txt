@@ -1,0 +1,9 @@
+----- Infinite Maze Trap: Cycle Detection -----
+
+Maze 1: No Cycle
+Path: 1 -> 2 -> 3 -> 4 -> 5 -> None
+Cycle detected: False
+
+Maze 2: Cycle
+Path: 1 -> 2 -> 3 -> 4 -> 5 -> 3 -> ...
+Cycle detected: True
