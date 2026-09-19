@@ -1,0 +1,49 @@
+DAY 25 - FLOYD CYCLE DETECTION VISUALIZATION
+
+Maze 1 - No Cycle
+-----------------
+1 -> 2 -> 3 -> 4 -> 5 -> None
+
+The fast pointer eventually reaches None,
+so there is no cycle.
+
+
+Maze 2 - Cycle
+--------------
+1 -> 2 -> 3 -> 4 -> 5
+          ^         |
+          |_________|
+
+Actually:
+5 -> 3
+
+So the path becomes:
+
+1 -> 2 -> 3 -> 4 -> 5
+          ^         |
+          |_________|
+
+The slow pointer moves one node at a time.
+The fast pointer moves two nodes at a time.
+
+Because the nodes form a cycle, fast eventually
+catches slow.
+
+Therefore:
+slow == fast
+Cycle detected = True
+
+
+FLOYD'S ALGORITHM
+-----------------
+slow = head
+fast = head
+
+while fast is not None and fast.next is not None:
+    slow = slow.next
+    fast = fast.next.next
+
+    if slow is fast:
+        return True
+
+return False
