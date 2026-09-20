@@ -1,0 +1,33 @@
+DAY 26 - REMOVE NTH NODE FROM END
+
+Example: Remove the 2nd node from the end.
+
+Original:
+A -> B -> C -> D -> E -> None
+
+Move fast n=2 positions ahead.
+Then move fast and slow together until fast reaches the last node.
+
+At that point:
+slow -> C
+slow.next -> D
+
+Remove D:
+slow.next = slow.next.next
+
+Result:
+A -> B -> C -> E -> None
+
+
+DUMMY NODE
+dummy -> A -> B -> C -> D -> E
+
+The dummy node makes removing the head work with the same logic.
+
+TWO POINTER STEPS
+1. Set fast and slow to dummy.
+2. Move fast n steps.
+3. Move both pointers together.
+4. Stop when fast reaches the last node.
+5. Remove slow.next.
+6. Return dummy.next.
