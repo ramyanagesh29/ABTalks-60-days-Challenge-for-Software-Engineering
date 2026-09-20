@@ -1,0 +1,11 @@
+----- Secret Message Decoder -----
+
+Original message chain:
+A -> B -> C -> D -> E -> None
+After removing the 2nd message from the end:
+A -> B -> C -> E -> None
+
+Original second chain:
+HELLO -> FROM -> RAMYA -> None
+After removing the 3rd message from the end:
+FROM -> RAMYA -> None
