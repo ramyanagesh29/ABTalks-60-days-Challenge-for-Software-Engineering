@@ -1,0 +1,14 @@
+----- Social Media Fraud Detector -----
+Activity window K: 3
+Events:
+1 -> POST:Buy now!
+2 -> POST:Hello everyone
+3 -> POST:New product today
+4 -> POST:Buy now!
+5 -> POST:Welcome to our page
+
+Suspicious repeated activity: True
+Repeated activity: POST:Buy now!
+First position: 1
+Second position: 4
+Distance: 3
