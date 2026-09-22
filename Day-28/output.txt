@@ -1,0 +1,17 @@
+----- Lost Treasure Coordinates -----
+Numbers: [2, 7, 11, 15, 3, 6]
+Target: 9
+
+Brute-Force Solution:
+Indices: [0, 1]
+Values: 2 + 7
+Execution time: <varies by machine>
+
+Hash Map Solution:
+Indices: [0, 1]
+Values: 2 + 7
+Execution time: <varies by machine>
+
+Complexity Comparison:
+Brute Force: O(N^2) time, O(1) extra space
+Hash Map: O(N) average time, O(N) extra space
