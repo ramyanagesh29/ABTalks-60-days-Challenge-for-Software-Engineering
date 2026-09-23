@@ -1,0 +1,29 @@
+DAY 29 - VIRAL HASHTAG TRACKER
+
+FREQUENCY TABLE:
+#python -> 5
+#ai     -> 4
+#coding -> 3
+#tech   -> 2
+#cloud  -> 1
+
+K = 3
+
+TRENDING OUTPUT:
+1. #python -> 5
+2. #ai     -> 4
+3. #coding -> 3
+
+SORTING APPROACH:
+1. Count hashtags using a dictionary.
+2. Sort unique hashtags by frequency descending.
+3. Take the first K.
+
+HEAP APPROACH:
+1. Count hashtags using a dictionary.
+2. Keep a min-heap containing only K elements.
+3. If heap size exceeds K, remove the smallest frequency.
+4. Remaining elements are the Top K.
+
+Sorting: O(N + U log U)
+Heap: O(N + U log K)
