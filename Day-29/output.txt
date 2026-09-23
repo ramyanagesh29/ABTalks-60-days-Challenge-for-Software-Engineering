@@ -1,0 +1,24 @@
+----- Viral Hashtag Tracker -----
+Hashtags: ['#python', '#ai', '#coding', '#python', '#ai', '#python', '#coding', '#tech', '#ai', '#python', '#tech', '#coding', '#ai', '#python', '#cloud']
+K: 3
+
+Frequency Analysis:
+#python -> 5
+#ai -> 4
+#coding -> 3
+#tech -> 2
+#cloud -> 1
+
+Top K Using Sorting:
+#python -> 5
+#ai -> 4
+#coding -> 3
+
+Top K Using Heap:
+#python -> 5
+#ai -> 4
+#coding -> 3
+
+Complexity Comparison:
+Sorting: O(N + U log U) time, O(U) space
+Heap: O(N + U log K) time, O(U + K) space
