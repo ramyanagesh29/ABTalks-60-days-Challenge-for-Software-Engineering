@@ -1,0 +1,14 @@
+----- Hidden Number Vault -----
+Sorted vault: [3, 8, 12, 17, 21, 25, 31, 42, 56, 63, 70]
+Target: 42
+
+Linear Search:
+Index: 7
+
+Binary Search:
+Index: 7
+
+Complexity Comparison:
+Linear Search: O(N) time
+Binary Search: O(log N) time
+Iterative binary search extra space: O(1)

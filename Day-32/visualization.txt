@@ -1,0 +1,22 @@
+DAY 32 - BINARY SEARCH
+
+Array:
+[3, 8, 12, 17, 21, 25, 31, 42, 56, 63, 70]
+Target = 42
+
+Step 1: middle = 25
+42 > 25 -> discard left half
+
+Step 2: middle = 56
+42 < 56 -> discard right half
+
+Step 3: middle = 31
+42 > 31 -> move left boundary
+
+Step 4: middle = 42
+FOUND at index 7
+
+Search space:
+11 -> 5 -> 2 -> 1
+
+Each step roughly halves the search space.
