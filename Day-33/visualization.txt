@@ -1,0 +1,69 @@
+DAY 33 - FIRST BAD VERSION
+
+Versions:
+1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  ... 20
+
+First bad version = 13
+
+Good versions:
+1 - 12
+
+Bad versions:
+13 - 20
+
+
+BINARY SEARCH
+
+Initial:
+left = 1
+right = 20
+
+mid = 10
+Version 10 is good
+Therefore:
+left = 11
+
+
+Next:
+left = 11
+right = 20
+
+mid = 15
+Version 15 is bad
+Therefore:
+right = 15
+
+
+Next:
+left = 11
+right = 15
+
+mid = 13
+Version 13 is bad
+Therefore:
+right = 13
+
+
+Next:
+left = 11
+right = 13
+
+mid = 12
+Version 12 is good
+Therefore:
+left = 13
+
+
+Now:
+left = 13
+right = 13
+
+FIRST BAD VERSION = 13
+
+
+KEY IDEA
+
+Good | Good | Good | ... | Good | Bad | Bad | Bad
+  1       2                 12    13    14
+
+Find the boundary between good and bad versions.
