@@ -1,0 +1,11 @@
+----- Defective Robot Factory -----
+Total versions: 20
+Actual first bad version: 13
+Detected first bad version: 13
+
+Verification:
+Correct: First bad version detected.
+
+Complexity:
+Time: O(log N)
+Extra Space: O(1)
