@@ -1,0 +1,20 @@
+DAY 31 - DUTCH NATIONAL FLAG
+
+low  = next position for 0
+mid  = current element
+high = next position for 2
+
+Rules:
+0 -> swap with low, low++, mid++
+1 -> mid++
+2 -> swap with high, high--
+
+Important:
+After swapping a 2 with high, do not increment mid because the new
+value at mid has not been checked.
+
+Input:
+[2, 0, 2, 1, 1, 0]
+
+Output:
+[0, 0, 1, 1, 2, 2]

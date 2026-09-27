@@ -1,0 +1,8 @@
+----- Dutch Flag Sorting Machine -----
+Original: [2, 0, 2, 1, 1, 0]
+Sorted: [0, 0, 1, 1, 2, 2]
+
+Complexity:
+Time: O(N)
+Extra Space: O(1)
+Built-in sorting: Not used
