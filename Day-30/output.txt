@@ -1,0 +1,14 @@
+===== Hacker Tournament Finals =====
+
+Battle 1: Longest Unique Substring
+Input: abcabcbb
+Longest substring: abc
+Length: 3
+
+Battle 2: Product of Array Except Self
+Input: [1, 2, 3, 4]
+Output: [24, 12, 8, 6]
+
+Complexity:
+Battle 1: O(N) time, O(N) space
+Battle 2: O(N) time, O(N) output space, O(1) extra space

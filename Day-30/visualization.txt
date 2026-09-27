@@ -1,0 +1,16 @@
+DAY 30 VISUALIZATION
+
+Battle 1:
+abcabcbb
+[abc] -> repeated a appears
+move left after previous a
+Longest window = abc, length 3
+
+Battle 2:
+[1, 2, 3, 4]
+Prefix products and suffix products combine to:
+[24, 12, 8, 6]
+
+Optimization:
+Sliding window avoids repeated substring checking.
+Prefix/suffix products avoid nested loops and division.
