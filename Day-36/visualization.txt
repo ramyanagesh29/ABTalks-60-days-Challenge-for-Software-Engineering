@@ -1,0 +1,6 @@
+DAY 36 - TWO POINTER CONTAINER
+
+Start at both ends. Area = width * shorter wall.
+If left wall is shorter, move left; otherwise move right.
+Why? The shorter wall limits the area, and moving the taller wall only reduces width.
+Maximum area for [1,8,6,2,5,4,8,3,7] is 49.

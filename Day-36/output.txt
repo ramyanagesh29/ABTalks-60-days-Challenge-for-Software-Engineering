@@ -1,0 +1,12 @@
+----- Water Reservoir Architect -----
+Wall heights: [1, 8, 6, 2, 5, 4, 8, 3, 7]
+
+Brute Force:
+Maximum area: 49
+
+Two Pointer:
+Maximum area: 49
+
+Complexity:
+Brute Force: O(N^2) time, O(1) space
+Two Pointer: O(N) time, O(1) space
