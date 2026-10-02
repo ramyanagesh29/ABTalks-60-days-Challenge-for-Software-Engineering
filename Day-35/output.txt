@@ -1,0 +1,20 @@
+----- Hacker Signal Decoder -----
+Signal: abcabcbb
+Longest unique pattern: abc
+Length: 3
+
+Signal: bbbbb
+Longest unique pattern: b
+Length: 1
+
+Signal: pwwkew
+Longest unique pattern: wke
+Length: 3
+
+Signal: abcdef
+Longest unique pattern: abcdef
+Length: 6
+
+Complexity:
+Time: O(N)
+Space: O(N)

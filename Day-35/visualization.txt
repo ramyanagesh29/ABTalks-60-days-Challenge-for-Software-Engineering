@@ -1,0 +1,6 @@
+DAY 35 - VARIABLE SLIDING WINDOW
+
+abc -> repeated a appears -> move left after previous a.
+The window expands with right and shrinks/jumps with left.
+Longest unique window for abcabcbb is abc.
+A hash map stores each character's latest position.
