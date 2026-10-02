@@ -1,0 +1,10 @@
+DAY 34 - FIXED SLIDING WINDOW
+
+[1,12,-5,-6] sum=2 average=0.5
+Move: remove 1, add 50
+[12,-5,-6,50] sum=51 average=12.75
+Move: remove 12, add 3
+[-5,-6,50,3] sum=42 average=10.5
+
+Maximum average = 12.75
+New window sum = old sum - outgoing + incoming.

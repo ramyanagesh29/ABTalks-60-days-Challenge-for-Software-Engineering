@@ -1,0 +1,13 @@
+----- Energy Drink Analyzer -----
+Energy readings: [1, 12, -5, -6, 50, 3]
+Window size: 4
+
+Naive Solution:
+Maximum average: 12.75
+
+Sliding Window Solution:
+Maximum average: 12.75
+
+Complexity:
+Naive: O(N*K) time, O(1) space
+Sliding Window: O(N) time, O(1) space
