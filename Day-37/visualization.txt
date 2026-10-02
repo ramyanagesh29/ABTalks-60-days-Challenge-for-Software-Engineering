@@ -1,0 +1,10 @@
+DAY 37 - GREEDY COOKIE DISTRIBUTION
+
+Children: [1,2,3]
+Cookies: [1,1]
+
+Give cookie 1 to child requiring 1 -> happy.
+Next cookie 1 cannot satisfy requirement 2 -> discard it.
+Maximum happy children = 1.
+
+Greedy rule: use the smallest cookie that can satisfy the smallest remaining requirement.

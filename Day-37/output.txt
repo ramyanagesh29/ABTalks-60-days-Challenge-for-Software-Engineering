@@ -1,0 +1,8 @@
+----- Cookie Distribution Crisis -----
+Children happiness requirements: [1, 2, 3]
+Cookie sizes: [1, 1]
+Maximum happy children: 1
+
+Complexity:
+Sorting: O(N log N + M log M)
+Greedy traversal: O(N + M)
