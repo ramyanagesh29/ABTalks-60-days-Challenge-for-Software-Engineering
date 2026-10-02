@@ -1,0 +1,13 @@
+DAY 38 - INORDER TREE TRAVERSAL
+
+                    King
+                   /    \
+             Prince A    Prince B
+              /    \      /    \
+       Princess C Princess D Prince E Princess F
+
+INORDER = LEFT -> ROOT -> RIGHT
+
+Princess C -> Prince A -> Princess D -> King -> Prince E -> Prince B -> Princess F
+
+Recursive traversal uses the call stack. Iterative traversal uses an explicit stack.
