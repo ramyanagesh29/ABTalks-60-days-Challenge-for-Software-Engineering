@@ -1,0 +1,9 @@
+----- Dungeon Depth Scanner -----
+Maximum dungeon depth: 4
+
+Edge Case - Empty Dungeon:
+Maximum depth: 0
+
+Complexity:
+Time: O(N)
+Space: O(H) recursion stack

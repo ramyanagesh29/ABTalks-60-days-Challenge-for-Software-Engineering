@@ -1,0 +1,20 @@
+DAY 39 - MAXIMUM DEPTH OF BINARY TREE
+
+                         Entrance
+                        /        \
+               Level 1 Left    Level 1 Right
+                 /      \             \
+        Level 2 Cave   Level 2 Hall   Level 2 Chamber
+             /                              \
+Level 3 Treasure Room                    Level 3 Exit
+
+Maximum depth = 4
+
+Recursive rule:
+depth(node) = 1 + max(depth(left), depth(right))
+
+Base case:
+depth(None) = 0
+
+Deepest path:
+Entrance -> Level 1 Left -> Level 2 Cave -> Level 3 Treasure Room
