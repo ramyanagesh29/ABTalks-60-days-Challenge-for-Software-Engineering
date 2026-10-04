@@ -1,0 +1,39 @@
+DAY 40 - VALIDATE BINARY SEARCH TREE
+
+VALID TREE
+
+              8
+            /   \
+           3     10
+          / \      \
+         1   6      14
+
+Every node must satisfy:
+lower < node < upper
+
+Root 8: (-infinity, +infinity)
+Node 3: (-infinity, 8)
+Node 6: (3, 8)
+Node 10: (8, +infinity)
+Node 14: (10, +infinity)
+
+Result: VALID
+
+
+INVALID TREE
+
+              8
+            /   \
+           3     10
+          / \
+         1   9
+
+Node 9 is in the left subtree of 8.
+Its valid range is (3, 8), but 9 is outside that range.
+
+Result: INVALID
+
+
+KEY IDEA:
+Left child -> current node becomes upper bound.
+Right child -> current node becomes lower bound.

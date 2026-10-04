@@ -1,0 +1,14 @@
+----- Corrupted Kingdom Records -----
+
+Test 1 - Valid BST:
+Result: True
+
+Test 2 - Invalid BST:
+Result: False
+
+Test 3 - Duplicate Value:
+Result: False
+
+Complexity:
+Time: O(N)
+Space: O(H) recursion stack
