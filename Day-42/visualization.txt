@@ -1,0 +1,29 @@
+DAY 42 - NUMBER OF ISLANDS
+
+Legend:
+1 = land
+0 = water
+
+1 1 0 0 0
+1 1 0 1 0
+0 0 1 0 0
+0 0 0 1 1
+
+DFS starts whenever an unvisited land cell is found.
+
+Island 1:
+1 1
+1 1
+
+Island 2:
+single 1 in row 2, column 4
+
+Island 3:
+single 1 in row 3, column 3
+
+Island 4:
+1 1 in the bottom-right
+
+Total islands = 4.
+
+DFS checks UP, DOWN, LEFT, RIGHT and changes visited land from 1 to 0.

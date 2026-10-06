@@ -1,0 +1,12 @@
+----- Island Survival Simulator -----
+Original map:
+1 1 0 0 0
+1 1 0 1 0
+0 0 1 0 0
+0 0 0 1 1
+
+Number of separate islands: 4
+
+Complexity:
+Time: O(R * C)
+Space: O(R * C) worst-case DFS stack
