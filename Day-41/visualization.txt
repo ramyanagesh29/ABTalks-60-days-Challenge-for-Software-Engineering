@@ -1,0 +1,23 @@
+DAY 41 - LOWEST COMMON ANCESTOR
+
+          6
+        /   \
+       2     8
+      / \   / \
+     0   4 7   9
+        / \
+       3   5
+
+For p=2, q=8:
+At 6, one value is smaller and one is larger.
+Therefore LCA = 6.
+
+For p=2, q=5:
+Both values are smaller than 6, so move left.
+At 2, one target equals the current node.
+Therefore LCA = 2.
+
+BST rule:
+Both smaller -> LEFT
+Both larger -> RIGHT
+Otherwise -> CURRENT NODE is LCA

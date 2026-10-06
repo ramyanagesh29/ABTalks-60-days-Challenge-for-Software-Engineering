@@ -1,0 +1,12 @@
+----- Family Reunion Locator -----
+Person 1: 2
+Person 2: 8
+Lowest Common Ancestor: 6
+
+Person 1: 2
+Person 2: 5
+Lowest Common Ancestor: 2
+
+Complexity:
+Time: O(H)
+Space: O(1)
