@@ -1,0 +1,24 @@
+DAY 43 - BFS LEVEL-BY-LEVEL VISUALIZATION
+==========================================
+
+BFS explores the grid in layers.
+
+Level 1: (0,0)
+Level 2: (1,0)
+Level 3: (2,0), (2,1)
+Level 4: (2,2), ...
+Later levels continue until the destination is reached.
+
+One shortest path is:
+(0,0) -> (1,0) -> (2,1) -> (2,2) -> (3,2) -> (4,3) -> (4,4)
+
+Shortest path length = 6 cells.
+
+BFS uses a FIFO queue:
+First In -> First Out
+
+The visited set prevents repeated processing.
+
+Complexity:
+Time: O(R * C)
+Space: O(R * C)

@@ -1,0 +1,13 @@
+Zombie City Escape Map
+----------------------
+Grid:
+[0, 1, 0, 0, 0]
+[0, 1, 0, 1, 0]
+[0, 0, 0, 1, 0]
+[1, 1, 0, 1, 0]
+[1, 1, 0, 0, 0]
+
+Shortest path length: 6
+Path: [(0, 0), (1, 0), (2, 1), (2, 2), (3, 2), (4, 3), (4, 4)]
+
+Escape route found successfully!
