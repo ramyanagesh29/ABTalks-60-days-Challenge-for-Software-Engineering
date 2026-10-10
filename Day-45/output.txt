@@ -1,0 +1,5 @@
+Emergency Room Simulator
+{'name': 'Ravi', 'severity': 1, 'reason': 'Breathing difficulty'}
+{'name': 'Meena', 'severity': 2, 'reason': 'Severe bleeding'}
+{'name': 'Asha', 'severity': 3, 'reason': 'Fracture'}
+{'name': 'Kiran', 'severity': 3, 'reason': 'High fever'}

@@ -1,0 +1,10 @@
+ARRIVAL:
+Asha severity 3
+Ravi severity 1
+Meena severity 2
+Kiran severity 3
+
+PROCESSING:
+Ravi -> Meena -> Asha -> Kiran
+
+Priority 1 comes before 2 and 3. For equal priority, earlier arrival comes first.
