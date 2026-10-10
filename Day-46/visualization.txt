@@ -1,0 +1,8 @@
+cost = [10, 15, 20]
+dp[0] = 0
+dp[1] = 0
+dp[2] = min(dp[1] + cost[1], dp[0] + cost[0]) = min(15, 10) = 10
+dp[3] = min(dp[2] + cost[2], dp[1] + cost[1]) = min(30, 15) = 15
+
+Position 3 is the top, so minimum cost = 15.
+Optimal choice: start at step 1, pay 15, then jump to the top.

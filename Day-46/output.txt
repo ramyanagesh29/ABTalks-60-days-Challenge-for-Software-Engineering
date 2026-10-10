@@ -1,0 +1,5 @@
+Robot Energy Saver
+Cost array: [10, 15, 20]
+Recursive answer: 15
+Memoized DP answer: 15
+Optimized DP answer: 15
