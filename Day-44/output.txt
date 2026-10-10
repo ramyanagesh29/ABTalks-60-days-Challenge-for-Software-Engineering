@@ -1,0 +1,4 @@
+University Course Planner
+Can finish all courses: True
+Valid course order: [0, 1, 2, 3]
+Cycle test - can finish all courses: False
