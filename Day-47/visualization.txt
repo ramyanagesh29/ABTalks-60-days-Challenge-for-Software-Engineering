@@ -1,0 +1,20 @@
+DAY 47 — DECISION VISUALIZATION
+
+Treasure: [2, 7, 9, 3, 1]
+Room index:  0  1  2  3  4
+
+DP values for the first i rooms:
+i:   0  1  2   3   4   5
+dp:  0  2  7  11  11  12
+
+At every room:
+TAKE = this room's treasure + best compatible earlier total
+SKIP = best total without taking this room
+dp[i] = max(TAKE, SKIP)
+
+One optimal selection: rooms 0, 2, 4
+Treasure total: 2 + 9 + 1 = 12
+
+Greedy warning:
+Choosing the biggest room first can block a better combination.
+Dynamic programming compares both choices at each step.

@@ -1,0 +1,7 @@
+Treasure Dungeon Collector
+Room treasures: [2, 7, 9, 3, 1]
+Memoized DP maximum: 12
+Optimized DP maximum: 12
+DP values: [0, 2, 7, 11, 11, 12]
+Selected room indices (0-based): [0, 2, 4]
+Selected treasure: [2, 9, 1]

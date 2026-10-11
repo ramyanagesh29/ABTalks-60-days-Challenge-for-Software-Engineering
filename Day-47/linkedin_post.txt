@@ -1,0 +1,14 @@
+Day 47/60 🚀 | Treasure Dungeon Collector
+
+💰 Built a treasure optimization system using Dynamic Programming.
+
+💡 Key realization:
+The locally best choice is not always globally optimal. By comparing the
+“take” and “skip” decisions for every room, I found the maximum treasure
+without selecting adjacent rooms.
+
+📈 Optimized the solution to O(N) time and O(1) extra space.
+
+GitHub Repo: [Add your repository link]
+
+#DynamicProgramming #Algorithms #SoftwareEngineering #ABTalks
