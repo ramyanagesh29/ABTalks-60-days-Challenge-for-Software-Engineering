@@ -1,0 +1,11 @@
+Day 48/60 🚀 | The Alien Language Translator
+
+Today I explored the Edit Distance algorithm using Dynamic Programming.
+
+🧠 I learned how insertion, deletion, and replacement costs can be compared
+using a DP table to find the minimum edits needed to transform one string
+into another.
+
+Example: transforming “horse” into “ros” takes just 3 edits.
+
+#DynamicProgramming #Algorithms #StringAlgorithms #SoftwareEngineering #ABTalks

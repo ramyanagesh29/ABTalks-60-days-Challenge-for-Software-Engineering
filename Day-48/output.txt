@@ -1,0 +1,13 @@
+Alien Language Translator
+Source: 'horse'
+Target: 'ros'
+Memoized DP answer: 3
+Bottom-up DP answer: 3
+DP table (rows = source prefix, columns = target prefix):
+       ∅   r   o   s
+  ∅    0   1   2   3
+  h    1   1   2   3
+  o    2   2   1   2
+  r    3   2   2   2
+  s    4   3   3   2
+  e    5   4   4   3

@@ -1,0 +1,21 @@
+DAY 48 — EDIT DISTANCE DP TABLE
+Source = "horse"; Target = "ros"
+
+Rows are source prefixes; columns are target prefixes.
+∅ represents the empty string.
+
+          ∅   r   o   s
+    ∅     0   1   2   3
+    h     1   1   2   3
+    o     2   2   1   2
+    r     3   2   2   2
+    s     4   3   3   2
+    e     5   4   4   3
+
+The bottom-right cell is 3: minimum edit distance = 3.
+
+For a character match, copy the diagonal cell.
+For a mismatch, take 1 + the minimum of:
+- left cell (insertion)
+- cell above (deletion)
+- diagonal cell (replacement)
