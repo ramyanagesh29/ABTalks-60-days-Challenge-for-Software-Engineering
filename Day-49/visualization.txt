@@ -1,0 +1,20 @@
+DAY 49 VISUALIZATION
+
+GRAPH BFS
+Distance 0: A
+Distance 1: B, C
+Distance 2: D, E, F
+Shortest route: A -> C -> F (2 edges).
+
+LIS TAILS EVOLUTION
+Input: [10, 9, 2, 5, 3, 7, 101, 18]
+Tails after each value:
+[10] -> [9] -> [2] -> [2, 5] -> [2, 3] -> [2, 3, 7]
+-> [2, 3, 7, 101] -> [2, 3, 7, 18]
+LIS length = 4. `tails` is not necessarily the actual subsequence.
+
+STOCK PROFIT
+Prices: [7, 1, 5, 3, 6, 4]
+Minimum becomes 1 on day 1.
+Selling on day 4 at 6 gives profit 6 - 1 = 5.
+Best transaction: buy day 1, sell day 4.

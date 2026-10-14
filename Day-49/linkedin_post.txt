@@ -1,0 +1,15 @@
+Day 49/60 🚀 | Ultimate Engineering Gauntlet
+
+⚔️ Completed three engineering challenges across graphs, dynamic programming, and optimization.
+
+🧠 Biggest realization:
+Strong engineers explain not only what works, but why an approach fits the constraints, what tradeoffs it makes, and how it handles edge cases.
+
+📌 Today’s focus:
+• BFS for shortest paths in unweighted graphs
+• O(N log N) strategy for Longest Increasing Subsequence
+• One-pass optimization for maximum single-transaction profit
+
+GitHub Repo: [Add your repository link]
+
+#SoftwareEngineering #DynamicProgramming #Graphs #InterviewPrep #ABTalks

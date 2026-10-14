@@ -1,0 +1,13 @@
+Graph challenge: shortest path
+Path from A to F: ['A', 'C', 'F']
+Number of edges: 2
+
+Dynamic programming challenge: LIS
+Input: [10, 9, 2, 5, 3, 7, 101, 18]
+Longest increasing subsequence length: 4
+
+Optimization challenge: stock profit
+Prices: [7, 1, 5, 3, 6, 4]
+Maximum profit: 5
+Buy day (0-based): 1
+Sell day (0-based): 4
