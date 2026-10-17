@@ -1,0 +1,21 @@
+CLASS RELATIONSHIP
+
+              Hero
+             /    \
+        FireHero  TechHero
+            |        |
+        Flame Burst  Tech Blast
+
+BATTLE FLOW
+1. Check whether both heroes have energy.
+2. Current attacker invokes attack(opponent).
+3. Dynamic dispatch selects the subclass's overridden attack method.
+4. Defender loses energy; attacker pays an energy cost.
+5. Repeat until one hero's energy reaches zero.
+6. Announce the winner.
+
+OOP PRINCIPLES
+- Inheritance: FireHero and TechHero reuse Hero.
+- Polymorphism: battle() works with any Hero subclass.
+- Overriding: each subclass implements a specialized attack.
+- Encapsulation: each instance maintains its own energy and power.

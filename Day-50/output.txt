@@ -1,0 +1,20 @@
+Superhero Academy Simulator
+Blaze | Energy: 100 | Power: 20
+Circuit | Energy: 100 | Power: 18
+
+Battle: Blaze vs Circuit
+Circuit takes 35 damage. Energy is now 65.
+Blaze unleashes Flame Burst on Circuit for 35 damage.
+Blaze takes 28 damage. Energy is now 62.
+Circuit launches a Tech Blast on Blaze for 28 damage.
+Circuit takes 35 damage. Energy is now 30.
+Blaze unleashes Flame Burst on Circuit for 35 damage.
+Blaze takes 28 damage. Energy is now 52.
+Circuit launches a Tech Blast on Blaze for 28 damage.
+Circuit takes 35 damage. Energy is now 0.
+Blaze unleashes Flame Burst on Circuit for 35 damage.
+Winner: Blaze
+
+Final status:
+Blaze | Energy: 70 | Power: 20
+Circuit | Energy: 0 | Power: 18

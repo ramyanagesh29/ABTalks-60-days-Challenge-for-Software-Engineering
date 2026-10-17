@@ -1,0 +1,15 @@
+Day 50/60 🚀 | Superhero Academy Simulator
+
+🦸 Built a hero battle simulator using Object-Oriented Programming in Python.
+
+💻 What I explored:
+• Inheritance to reuse common hero behavior
+• Method overriding for specialized attacks
+• Polymorphism to let different heroes battle through a shared interface
+
+🧠 Biggest realization:
+Good OOP design makes it easier to extend a system without rewriting the core logic.
+
+GitHub Repo: [Add your repository link]
+
+#OOP #SoftwareEngineering #Python #ABTalks
