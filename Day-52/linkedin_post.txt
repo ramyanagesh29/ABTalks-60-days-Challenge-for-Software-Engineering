@@ -1,0 +1,6 @@
+Day 52/60 🌦️ | The Weather Intelligence Network
+
+Built a Python weather client that calls public APIs, parses JSON, and formats current weather insights.
+Key learning: reliable API integration includes graceful handling of failures, not only successful responses.
+
+#APIs #Python #SoftwareEngineering #ABTalks

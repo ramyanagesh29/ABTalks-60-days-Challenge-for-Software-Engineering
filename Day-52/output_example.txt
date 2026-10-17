@@ -1,0 +1,10 @@
+Example format; live values vary:
+Enter a city (e.g., Mysuru): Mysuru
+Weather Intelligence Report
+Location: Mysuru, India
+Temperature: <live value> °C
+Feels like: <live value> °C
+Humidity: <live value>%
+Wind: <live value> km/h
+Precipitation: <live value> mm
+Observation time: <API timestamp>
