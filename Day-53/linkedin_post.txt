@@ -1,0 +1,6 @@
+Day 53/60 🔐 | The Secret Vault Database
+
+Built a SQLite CRUD system to add, search, update, and delete vault records.
+Key learning: parameterized SQL helps prevent SQL injection, while truly secure secret storage requires encryption and access control.
+
+#SQLite #Databases #Python #CyberSecurity #ABTalks

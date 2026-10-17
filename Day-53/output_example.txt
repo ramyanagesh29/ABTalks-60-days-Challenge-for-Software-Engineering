@@ -1,0 +1,7 @@
+Example run (ID may vary):
+Secret Vault Database
+Added record ID: 1
+Search results: [{'id': 1, 'title': 'Demo Account', 'username': 'demo_user', 'notes': 'sample', ...}]
+Updated record: {... 'notes': 'updated sample note', ...}
+Deleted: True
+Search after delete: []
