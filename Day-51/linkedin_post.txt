@@ -1,0 +1,6 @@
+Day 51/60 🚀 | The Food Delivery Empire
+
+Built a mini food delivery backend simulation with users, restaurants, orders, and delivery tracking.
+Key learning: clear entity relationships and validated order-state transitions make backend systems easier to maintain.
+
+#SystemDesign #Python #BackendDevelopment #SoftwareEngineering #ABTalks

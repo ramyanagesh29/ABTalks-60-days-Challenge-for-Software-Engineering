@@ -1,0 +1,4 @@
+Food Delivery Empire
+Order ID: 1 | Customer: Ramya
+Restaurant: Green Bowl | Total: ₹390
+Tracking: ACCEPTED -> PREPARING -> PICKED_UP -> DELIVERED
